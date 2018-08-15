@@ -14,6 +14,7 @@ print(width, height)
 image2 = Image.new("RGB", (4 * 99, 50), '#ffffff')
 draw = ImageDraw.Draw(image2)
 w = 0
+
 for y in range(50):
     for x in range(4 * (99 - 2 * y)):
         draw.point((x, y), fill=pix[w, 0])
