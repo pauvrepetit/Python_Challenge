@@ -6,6 +6,7 @@ with open("ocr.txt") as file:
     lines = file.read()
 
 count = {}
+
 for char in lines:
     try:
         count[char] += 1
